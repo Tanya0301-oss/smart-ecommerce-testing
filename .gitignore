@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore ChromeDriver and its license (optional)
+chromedriver.exe
+LICENSE.chromedriver
+THIRD_PARTY_NOTICES.chromedriver
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore reports and logs (optional)
+reports/*.html
+reports/*.json
+reports/*.txt
+
+# Ignore screenshots
+screenshots/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
